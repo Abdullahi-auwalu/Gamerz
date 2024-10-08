@@ -16,7 +16,7 @@ const sideNavItems: SideNavItem[] = [
 
 const SideNav = () => {
   return (
-    <div className="flex flex-col p-4 gap-2 h-[771px] bg-[#242424] justify-between">
+    <div className="flex flex-col p-4 gap-2 h-[771px] bg-[#121212] border-r-gray-900 border-r-2 justify-between">
       {/* TOP */}
       <div className="w-[100%]  h-[280px] pt-4 pl-2">
         {sideNavItems.map((item) => (

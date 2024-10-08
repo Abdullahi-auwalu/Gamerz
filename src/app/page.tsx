@@ -5,7 +5,7 @@ export default function Home() {
     // <div className=" min-h-screen  font-[family-name:var(--font-geist-sans)]">
     //   Hello
     // </div>
-    <div className="w-auto h-screen">
+    <div className="w-auto h-screen px-6 py-4">
       <Banner />
     </div>
   );

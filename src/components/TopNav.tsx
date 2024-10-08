@@ -2,11 +2,8 @@ import Image from "next/image";
 
 const TopNav = () => {
   return (
-    <div className="w-full h-[100px] flex items-center justify-between p-4 border-b-2 border-gray-500 bg-[#121212]">
+    <div className="w-full h-[100px] flex items-center justify-between p-4 border-b-2 border-gray-900 bg-[#121212]">
       <div className=" flex items-center justify-center gap-1">
-        {/* LOGO */}
-        {/* <Image src="/logo.png" alt="" width={20} height={20} />
-        <span className="font-semibold text-2xl leading-3">GAMERZ</span> */}
         <Image src="/logo1.png" alt="" width={110} height={110} />
       </div>
 
