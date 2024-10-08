@@ -34,8 +34,16 @@ export default function RootLayout({
       </body> */}
       <body className="bg-black text-white">
         <TopNav />
-        <SideNav />
-        {children}
+
+        <div className="flex gap-2 ">
+          {/* LEFT */}
+          <div className="w-[20%]  md:w-[16%] ">
+            <SideNav />
+          </div>
+
+          {/* RIGHT */}
+          <div className="w-[80%]  md:w-[84%] ">{children}</div>
+        </div>
       </body>
     </html>
   );
