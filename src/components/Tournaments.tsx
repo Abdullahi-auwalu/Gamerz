@@ -36,7 +36,14 @@ const Tournaments = () => {
       </div>
 
       {/* CARDS */}
-      <Cards />
+      <div className="flex flex-col md:flex-row flex-wrap items-center justify-center lg:justify-between gap-4 md:gap-1">
+        <Cards />
+        <Cards />
+        <Cards />
+        <Cards />
+        <Cards />
+        <Cards />
+      </div>
     </div>
   );
 };

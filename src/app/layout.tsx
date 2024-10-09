@@ -37,12 +37,12 @@ export default function RootLayout({
 
         <div className="flex gap-2 ">
           {/* LEFT */}
-          <div className="w-[20%]  md:w-[16%] ">
+          <div className="w-[20%]  md:w-[20%] ">
             <SideNav />
           </div>
 
           {/* RIGHT */}
-          <div className="w-[80%]  md:w-[84%] ">{children}</div>
+          <div className="w-[80%]  md:w-[80%] ">{children}</div>
         </div>
       </body>
     </html>

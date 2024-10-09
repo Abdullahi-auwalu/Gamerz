@@ -5,12 +5,8 @@ import Tournaments from "@/components/Tournaments";
 
 export default function Home() {
   return (
-    // <div className=" min-h-screen  font-[family-name:var(--font-geist-sans)]">
-    //   Hello
-    // </div>
-    <div className="w-auto h-screen px-6 py-4">
+    <div className="w-auto h-screen px-2 md:px-4 py-4">
       <Banner />
-      {/* MINI BANNER */}
       <MiniBanner />
       <Tournaments />
     </div>
