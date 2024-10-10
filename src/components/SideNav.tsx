@@ -18,14 +18,14 @@ const sideNavItems: SideNavItem[] = [
 
 const SideNav = () => {
   return (
-    <div className="flex flex-col p-4 gap-2 h-[771px] bg-[#121212] border-r-gray-900 border-r-2 justify-between">
+    <div className="flex flex-col p-2 md:p-4 gap-2 h-[771px] bg-[#121212] border-r-gray-900 border-r-2 justify-between">
       {/* TOP */}
-      <div className="w-[100%]  h-[280px] pt-4 pl-2">
+      <div className="w-[100%] h-[280px] pt-4 p-2">
         {sideNavItems.map((item) => (
           <Link
             href={item.path}
             key={item.title}
-            className="flex gap-3  p-2 hover:bg-[#3B3B3B] hover:cursor-pointer text-[#7E7F7F]"
+            className="flex gap-3  py-2 md:py-2 md:px-2 hover:bg-[#3B3B3B] hover:cursor-pointer text-[#7E7F7F]"
           >
             <Image src={item.icon} alt="" width={30} height={30} />
             <p className="font-semibold text-lg hidden lg:block">

@@ -15,7 +15,7 @@ const DetailBanner = () => {
             alt=""
             width={1500}
             height={1500}
-            className=" object-cover md:w-screen md:h-full object- md:object-cover"
+            className=" object-cover object-center md:w-screen "
           />
         </div>
         <div className="flex flex-col gap-5 mt-3">
