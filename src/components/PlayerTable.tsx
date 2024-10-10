@@ -81,25 +81,25 @@ const PlayerTable = () => {
       <table className="w-[100%]">
         <thead>
           <tr className=" bg-[#2E2E2E] w-[100%]">
-            <th className="w-[176px] h-[48px] p-4 sm:px-8  py-4  text-[#7E7F7F]  font-semibold text-sm">
+            <th className="w-[176px] h-[48px] p-4 sm:px-8 py-4 text-[#7E7F7F] font-semibold text-sm">
               Placement
             </th>
             <th className=" w-[176px] h-[48px] px-8 py-4 t text-[#7E7F7F] font-semibold text-sm">
               Player
             </th>
-            <th className="w-[176px] h-[48px] px-8 py-4  text-[#7E7F7F] font-semibold text-sm">
+            <th className="w-[176px] h-[48px] px-8 py-4 text-[#7E7F7F] font-semibold text-sm">
               Games Played
             </th>
-            <th className="w-[176px]  h-[48px] px-8 py-4  text-[#7E7F7F] font-semibold text-sm hidden md:table-cell">
+            <th className="w-[176px] h-[48px] px-8 py-4 text-[#7E7F7F] font-semibold text-sm hidden md:table-cell">
               Wins
             </th>
-            <th className="w-[176px]   h-[48px] px-8 py-4  text-[#7E7F7F] font-semibold text-sm hidden md:table-cell">
+            <th className="w-[176px] h-[48px] px-8 py-4 text-[#7E7F7F] font-semibold text-sm hidden md:table-cell">
               Losses
             </th>
-            <th className=" w-[176px]  h-[48px] px-8 py-4  text-[#7E7F7F] font-semibold text-sm hidden md:table-cell">
+            <th className=" w-[176px] h-[48px] px-8 py-4 text-[#7E7F7F] font-semibold text-sm hidden md:table-cell">
               W/L Ratio
             </th>
-            <th className="w-[176px] h-[48px]  p-4 sm:px-8 py-4  text-[#7E7F7F] font-semibold text-sm">
+            <th className="w-[176px] h-[48px] p-4 sm:px-8 py-4 text-[#7E7F7F] font-semibold text-sm">
               Points
             </th>
           </tr>
@@ -107,7 +107,7 @@ const PlayerTable = () => {
         <tbody>
           {playersData.map((player) => (
             <tr key={player.placement} className="w-[100%]">
-              <td className="flex items-center justify-center gap-3 w-[176px] h-[84px]  px-8 py-4  text-lg ">
+              <td className="flex items-center justify-center gap-3 w-[176px] h-[84px] px-8 py-4 text-lg ">
                 <Image src={player.image} alt="" width={25} height={30} />
                 <p>{player.placement}</p>
               </td>

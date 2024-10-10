@@ -7,10 +7,16 @@ const DetailBanner = () => {
       <div className="flex flex-col gap-4  w-full ">
         <div className="flex items-center justify-start">
           <Image src="/Left.png" alt="" width={20} height={20} />
-          <h3 className=" font-bold text-sm">Back</h3>
+          <h3 className=" font-bold text-sm ">Back</h3>
         </div>
         <div className="flex w-full h-[393px]">
-          <Image src="/DetailBanner.png" alt="" width={1500} height={1500} />
+          <Image
+            src="/DetailBanner.png"
+            alt=""
+            width={1500}
+            height={1500}
+            className=" object-cover md:w-screen md:h-full object- md:object-cover"
+          />
         </div>
         <div className="flex flex-col gap-5 mt-3">
           <h2 className="font-extrabold text-2xl">Call of duty</h2>
