@@ -37,7 +37,7 @@ const MiniBanner = () => {
           </p>
           <button className="flex gap-2 items-center mt-4">
             <Image src="/Play.png" alt="" width={20} height={20} />
-            <p className="font-bold text-lg">Let's go</p>
+            <p className="font-bold text-lg">Lets go</p>
           </button>
         </div>
 
