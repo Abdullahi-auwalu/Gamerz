@@ -14,7 +14,7 @@ const Pagination = () => {
           className="py-2 px-4 
      text-xs font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          <Image src="/LeftWhight.png" alt="" width={20} height={20} />
+          <Image src="/LeftWhite.png" alt="" width={20} height={20} />
         </button>
 
         <div className="flex items-center gap-2 text-sm">
@@ -28,7 +28,7 @@ const Pagination = () => {
           className="py-2 px-4
      text-xs font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          <Image src="/RightWhight.png" alt="" width={20} height={20} />
+          <Image src="/RightWhite.png" alt="" width={20} height={20} />
         </button>
       </div>
     </div>
