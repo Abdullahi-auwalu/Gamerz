@@ -8,7 +8,7 @@ const page = () => {
     <div className="p-4 lg:mr-[5rem]">
       <DetailBanner />
       <TournamentInfo />
-      <div className="flex items-center justify-stretch lg:w-[1002px]">
+      <div className="flex items-center justify-stretch lg:w-full">
         <FixturesTable />
       </div>
       <Pagination />
