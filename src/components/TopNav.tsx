@@ -4,7 +4,7 @@ const TopNav = () => {
   return (
     <div className="w-full h-[100px] flex items-center justify-between p-4 px-8 border-b-2 border-gray-900 bg-[#121212]">
       <div className=" flex items-center justify-center gap-1">
-        <Image src="/logo.svg" alt="" width={110} height={110} />
+        <Image src="/Logo.svg" alt="" width={110} height={110} />
       </div>
 
       {/* SEARCH BAR */}
