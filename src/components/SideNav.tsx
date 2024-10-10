@@ -1,17 +1,19 @@
 import Image from "next/image";
+import Link from "next/link";
 
 interface SideNavItem {
   title: string;
   icon: string;
+  path: string;
 }
 
 const sideNavItems: SideNavItem[] = [
-  { title: "Tournaments", icon: "/Gamepad.png" },
-  { title: "Leaderboards", icon: "/Leaderboard.png" },
-  { title: "Token shop", icon: "/Token3.png" },
-  { title: "Live betting", icon: "/Bet.png" },
-  { title: "Content locker", icon: "/Video.png" },
-  { title: "Community", icon: "/Community.png" },
+  { title: "Tournaments", icon: "/GamepadHash.png", path: "/" },
+  { title: "Leaderboards", icon: "/Leaderboard.png", path: "/" },
+  { title: "Token shop", icon: "/Token3.png", path: "/" },
+  { title: "Live betting", icon: "/Bet.png", path: "/" },
+  { title: "Content locker", icon: "/Video.png", path: "/" },
+  { title: "Community", icon: "/Community.png", path: "/" },
 ];
 
 const SideNav = () => {
@@ -20,7 +22,8 @@ const SideNav = () => {
       {/* TOP */}
       <div className="w-[100%]  h-[280px] pt-4 pl-2">
         {sideNavItems.map((item) => (
-          <div
+          <Link
+            href={item.path}
             key={item.title}
             className="flex gap-3  p-2 hover:bg-[#3B3B3B] hover:cursor-pointer text-[#7E7F7F]"
           >
@@ -28,7 +31,7 @@ const SideNav = () => {
             <p className="font-semibold text-lg hidden lg:block">
               {item.title}
             </p>
-          </div>
+          </Link>
         ))}
       </div>
 

@@ -77,7 +77,7 @@ const playersData: Player[] = [
 
 const PlayerTable = () => {
   return (
-    <div className="w-full h-auto bg-[#1C1C1C]">
+    <div className=" w-sreen overflow-y-auto lg:overflow-y-visible flex justify-start h-auto bg-[#1C1C1C]">
       <table className="w-[100%]">
         <thead>
           <tr className=" bg-[#2E2E2E] w-[100%]">

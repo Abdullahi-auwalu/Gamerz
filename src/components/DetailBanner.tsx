@@ -9,7 +9,7 @@ const DetailBanner = () => {
           <Image src="/Left.png" alt="" width={20} height={20} />
           <h3 className=" font-bold text-sm ">Back</h3>
         </div>
-        <div className="flex w-full h-[393px]">
+        <div className="flex w-auto h-[393px]">
           <Image
             src="/DetailBanner.png"
             alt=""
