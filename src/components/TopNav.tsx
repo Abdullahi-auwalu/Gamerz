@@ -4,12 +4,12 @@ const TopNav = () => {
   return (
     <div className="w-full h-[100px] flex items-center justify-between p-4 px-8 border-b-2 border-gray-900 bg-[#121212]">
       <div className=" flex items-center justify-center gap-1">
-        <Image src="/logo1.png" alt="" width={110} height={110} />
+        <Image src="/logo.svg" alt="" width={110} height={110} />
       </div>
 
       {/* SEARCH BAR */}
       <div className="hidden lg:flex items-center gap-1 text-xs ring-[1.5px] ring-[#1C1C1C] bg-[#1C1C1C] w-[569px] h-[48px] px-2">
-        <Image src="/search.png" alt="search bar" width={25} height={25} />
+        <Image src="/Search.svg" alt="search bar" width={25} height={25} />
         <input
           type="text"
           placeholder="Search tournament, player name or player tag"
